@@ -1,34 +1,68 @@
 <?php
 
-class A{
+class A {
+
+    public function solve($a, $b) {
+
+        if ($a == 0) {
+
+            return null;
+
+        }
+
+        return $this->x=(-$b/$a); 
+
+    }
+
+    protected $x;
 
 }
 
-class B extends A{
+class B extends A {
 
-	protected $a;
+    protected function discriminant($a, $b, $c) {
 
-	public function __construct($a){
-	$this->a = $a;
-	}
-}
+        $gg = ($b**2)-4*$a*$c;
 
-class C extends B{
+        return $gg;
 
-	protected $b;
-	protected $c;
+    }
 
-	public function __construct($a, $b, $c){
-	parent::__construct($a);
-	$this->b = $b;
-	$this->c = $c;	
-	}
-}
+    public function  solve_two($a, $b, $c) {
 
-$a1 = new A();
-$a2 = new A();
-$b3 = new B();
-$b4 = new B();
-$c5 = new C();
+        if ($a == 0) {
 
-?>
+            return $this->solve($b, $c);
+
+        }
+
+        $x = $this->discriminant($a, $b, $c);
+
+        if ($x > 0) {
+
+            return $this->X=array(
+
+                -($b+sqrt($b**2-4*$a*$c)/2*$a),
+                -($b-sqrt($b**2-4*$a*$c)/2*$a)
+
+            );
+
+            }
+
+        if ($x == 0) {
+
+            return $this->X=array(-$b/2*$a);
+
+        }
+        
+        return $this->X=null;
+
+        }
+
+    }
+
+    $a = new A();
+    $a->solve(22, 33);
+
+
+    
