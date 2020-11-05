@@ -17,11 +17,6 @@ include "morozov/MorozovException.php";
 ini_set("display_errors", 1);
 error_reporting (-1);
 
-// \morozov\MyLog::log("sdsdsdsdsd");
-MyLog::write();
-
-
-
 try {
 
     $b = new SolveTwo();
