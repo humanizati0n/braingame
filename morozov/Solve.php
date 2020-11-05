@@ -8,7 +8,7 @@ class Solve {
 
         if ($a == 0) {
 
-            return NULL;
+            throw  new MorozovException("Уравнения не существует.");
 
         }
 

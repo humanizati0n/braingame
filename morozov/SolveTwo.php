@@ -50,7 +50,7 @@ protected function discriminant($a, $b, $c) {
 
     }
 
-    return null;
+    throw new MorozovException("Ошибка");
 
     }
 
