@@ -19,13 +19,26 @@ class MyLog extends LogAbstract implements LogInterface {
 
     }
 
-    public function _write() {
+ public function _write() {
 
-        foreach ($this->log as $key) {
+        $a = new DateTime();
+        $filename = "log/".$a->format('d.m.Y_T_H.i.s.u').".log";
 
-            echo $key."\n";
+        $dirname = "log";
 
+        if(!(is_dir($dirname))){
+            mkdir($dirname, 0777, true);
         }
+
+        $logfile = "";
+
+        foreach($this->log as $value){
+            echo $value;
+            $logfile .= $value;
+        }
+
+        file_put_contents($filename, $logfile);
+
 
     }
 

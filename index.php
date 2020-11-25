@@ -19,6 +19,9 @@ error_reporting (-1);
 
 try {
 
+    $version = file_get_contents("version");
+    MyLog::log("Версия:".$version);
+
     $b = new SolveTwo();
     $ArrayValues = array();
 
