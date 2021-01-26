@@ -1,0 +1,25 @@
+{
+    "name": "humanizati0n/braingame",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Morozov",
+            "email": "delilah228822@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/rok9ru/trpo-core.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/humanizati0n/braingameLib.git"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "rok9ru/trpo-core":"^2.0",
+        "humanizati0n/braingamelib":"^1.0"
+    }
+}

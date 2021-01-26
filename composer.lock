@@ -1,0 +1,87 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5643098a11acea81a8084b73ba7e7878",
+    "packages": [
+        {
+            "name": "humanizati0n/braingamelib",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanizati0n/braingameLib.git",
+                "reference": "717e64b108df7c1ced1992d24b1c2307b2fdca5d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanizati0n/braingameLib/zipball/717e64b108df7c1ced1992d24b1c2307b2fdca5d",
+                "reference": "717e64b108df7c1ced1992d24b1c2307b2fdca5d",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "morozov\\": ""
+                }
+            },
+            "authors": [
+                {
+                    "name": "Morozov",
+                    "email": "delilah228822@gmail.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/humanizati0n/braingameLib/tree/v1.0",
+                "issues": "https://github.com/humanizati0n/braingameLib/issues"
+            },
+            "time": "2021-01-25T17:51:00+00:00"
+        },
+        {
+            "name": "rok9ru/trpo-core",
+            "version": "2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rok9ru/trpo-core.git",
+                "reference": "fd341399677df9ed17a71e4abb9230277ede5395"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rok9ru/trpo-core/zipball/fd341399677df9ed17a71e4abb9230277ede5395",
+                "reference": "fd341399677df9ed17a71e4abb9230277ede5395",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "core\\": "core"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Sleepplayer",
+                    "email": "rok_9@mail.ru"
+                }
+            ],
+            "description": "Project for lesson subject \"TRPO\" test project",
+            "support": {
+                "source": "https://github.com/rok9ru/trpo-core/tree/2.0",
+                "issues": "https://github.com/rok9ru/trpo-core/issues"
+            },
+            "time": "2021-01-13T12:08:11+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
